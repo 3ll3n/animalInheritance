@@ -1,7 +1,15 @@
-class Animal(){
+class Animal {
 
-  public String Eat(){
-    return ""
+  public Animal(){
+
+  }
+
+  public String canEat(){
+    return "I can eat";
+  }
+
+  public String canBreathe(){
+    return "I can breathe";
   }
 
 }
