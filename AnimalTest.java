@@ -36,4 +36,14 @@ public class AnimalTest{
     assertEquals("I can speak", mammal.canSpeak());
   }
 
+  @Test
+  public void testHumanCanSpeak(){
+    assertEquals("I can speak", human.canSpeak());
+  }
+
+  @Test
+  public void testChimpanzeeCanSpeak(){
+    assertEquals("I can speak", chimpanzee.canSpeak());
+  }
+
 }
