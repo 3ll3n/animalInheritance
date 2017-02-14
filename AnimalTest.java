@@ -27,13 +27,23 @@ public class AnimalTest{
   }
 
   @Test
+  public void testMammalCanEat(){
+    assertEquals("I can eat", mammal.canEat());
+  }
+
+  @Test
+  public void testMammalCanBreathe(){
+    assertEquals("I can breathe", mammal.canBreathe());
+  }
+
+  @Test
   public void testMammalCanBrushHair(){
     assertEquals("I can brush my hair", mammal.canBrush());
   }
 
   @Test
-  public void testMammalCanSpeak(){
-    assertEquals("I can speak", mammal.canSpeak());
+  public void testHumanCanEat(){
+    assertEquals("I can eat", human.canEat());
   }
 
   @Test
@@ -42,8 +52,25 @@ public class AnimalTest{
   }
 
   @Test
+  public void testHumanCanBreathe(){
+    assertEquals("I can breathe", human.canBreathe());
+  }
+
+  @Test
+  public void testHumanCanBrushHair(){
+    assertEquals("I can brush my hair", human.canBrush());
+  }
+
+  // test chimpanzee can speak, can brush hair, can eat and breathe
+
+  @Test
   public void testChimpanzeeCanSpeak(){
-    assertEquals("I can speak", chimpanzee.canSpeak());
+    assertEquals("ooo ooo aa aa", chimpanzee.canSpeak());
+  }
+
+  @Test
+  public void testChimpanzeeCanBrushHair(){
+    assertEquals("I can brush my hair", chimpanzee.canBrush());
   }
 
 }

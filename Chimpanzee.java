@@ -5,7 +5,7 @@ class Chimpanzee extends Mammal{
   }
 
   public String canSpeak(){
-    return "I can speak";
+    return "ooo ooo aa aa";
   }
 
 }

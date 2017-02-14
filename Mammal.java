@@ -8,8 +8,4 @@ class Mammal extends Animal{
     return "I can brush my hair";
   }
 
-  public String canSpeak(){
-    return "I can speak";
-  }
-
 }
